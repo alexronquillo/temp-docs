@@ -1,11 +1,11 @@
 ---
-description: General documentation and learning resources
+description: A guide to analyzing your data in justtrack
 ---
 
 # Overview
 
-Here, you'll find general resources that define and describe concepts that are important to our product. These exist independent of product documentation so you can focus on learning the elements of the product in any order or context that's easiest for you.
+You market your product, develop of your game, or perform any other function in your organization. You need to **export, study, and analyze user acquisition and monetization data**. This is the documentation for you.&#x20;
 
-The resources you'll find in this section are:
+Here, you'll find product documentation and guides for topics like:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Glossary</strong></td><td>Definitions of industry and product terms. Along with these definitions, we include related terms, documentation, and user guides, which can paint a picture of how certain concepts are connected to each other.</td><td><a href="glossary-and-definitions/">glossary-and-definitions</a></td></tr><tr><td><strong>Integrated Partners</strong></td><td>A list of partners and the justtrack features they support.</td><td><a href="partner-overview/">partner-overview</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Funnels</strong></td><td>Track users' progress inside your apps or games.</td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Costs</strong></td><td>Report on marketing costs based on data from tracking URLs or Partner APIs. </td><td></td><td><a href="costs/cost-and-revenue-aggregation/">cost-and-revenue-aggregation</a></td></tr><tr><td><strong>Revenue</strong></td><td>Analyze revenue based on user segment and in-app purchases.</td><td></td><td><a href="user-ad-level-revenue/user-ad-level-revenue/">user-ad-level-revenue</a></td></tr></tbody></table>

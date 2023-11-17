@@ -1,22 +1,34 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Glossary](glossary-and-definitions/README.md)
-  * [Channel](glossary-and-definitions/channel.md)
-  * [Goal](glossary-and-definitions/goal.md)
-  * [Network](glossary-and-definitions/network.md)
-  * [Postbacks](glossary-and-definitions/postbacks.md)
-  * [Sessions](glossary-and-definitions/sessions.md)
-  * [Tracking URL](glossary-and-definitions/tracking-url.md)
-  * [User Event](glossary-and-definitions/user-event.md)
-* [Integrated Partners](partner-overview/README.md)
-  * [Apple Search Ads](partner-overview/apple-search-ads.md)
-  * [AdColony / Digital Turbine](partner-overview/adcolony-digital-turbine.md)
-  * [Adjoe](partner-overview/adjoe.md)
-  * [Applovin](partner-overview/applovin.md)
-  * [Google Ads](partner-overview/google-ads.md)
-  * [Google Firebase](partner-overview/google-firebase.md)
-  * [Ironsource](partner-overview/ironsource.md)
-  * [Meta / Facebook](partner-overview/meta-facebook.md)
-  * [Tapjoy](partner-overview/tapjoy.md)
-  * [Unity](partner-overview/unity.md)
+
+## Funnels
+
+* [Overview](funnels/funnel.md)
+
+## Costs
+
+* [Overview](costs/cost-and-revenue-aggregation/README.md)
+  * [Cost data sources](costs/cost-and-revenue-aggregation/cost-integration.md)
+
+## User Ad-Level Revenue
+
+* [Overview](user-ad-level-revenue/user-ad-level-revenue/README.md)
+  * [ironSource Mediation](user-ad-level-revenue/user-ad-level-revenue/monetization.md)
+
+## In-app Purchase Revenue
+
+* [Overview](in-app-purchase-revenue/in-app-purchase-revenue/README.md)
+  * [Apple App Store](in-app-purchase-revenue/in-app-purchase-revenue/apple-app-store.md)
+  * [Google Play Store](in-app-purchase-revenue/in-app-purchase-revenue/google-play-store.md)
+
+## Segments
+
+* [Overview](segments/overview/README.md)
+  * [Segment Builder](segments/overview/segment-builder.md)
+* [Manage your segments](segments/manage-your-segments.md)
+
+## Dashboard
+
+* [Overview](dashboard/overview.md)
+* [Customize Widgets](dashboard/customize-widgets.md)
