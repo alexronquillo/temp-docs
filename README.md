@@ -1,11 +1,11 @@
 ---
-description: A guide to promoting your app with justtrack
+description: General documentation and learning resources
 ---
 
 # Overview
 
-You're focused on market growth, attribution, and user acquisition. You **manage your creative campaigns, goals, networks, and more**. This is the documentation for you.&#x20;
+Here, you'll find general resources that define and describe concepts that are important to our product. These exist independent of product documentation so you can focus on learning the elements of the product in any order or context that's easiest for you.
 
-Here, you'll find product documentation and guides for topics like:
+The resources you'll find in this section are:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Networks</strong></td><td>Connect and manage your Ad and Monetization Networks.</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Goals</strong></td><td>Create, edit, and delete goals for your campaigns.</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>User Acquisition Automation</strong></td><td>Automate cost integrations, bid adjustments, campaign creation, and more.</td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Glossary</strong></td><td>Definitions of industry and product terms. Along with these definitions, we include related terms, documentation, and user guides, which can paint a picture of how certain concepts are connected to each other.</td><td><a href="glossary-and-definitions/">glossary-and-definitions</a></td></tr><tr><td><strong>Integrated Partners</strong></td><td>A list of partners and the justtrack features they support.</td><td><a href="partner-overview/">partner-overview</a></td></tr></tbody></table>

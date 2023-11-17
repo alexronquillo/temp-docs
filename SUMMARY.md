@@ -1,47 +1,22 @@
 # Table of contents
 
 * [Overview](README.md)
-
-## Goal Management
-
-* [Overview](goal-management/goals.md)
-* [Create a goal](goal-management/create-a-goal.md)
-* [Manage existing goals](goal-management/manage-existing-goals.md)
-
-## Channel Management
-
-* [Overview](channel-management/channels.md)
-* [Manage your channels](channel-management/manage-your-channels.md)
-
-## User Management
-
-* [Overview](user-management/user-management.md)
-* [User roles and permissions](user-management/user-roles-and-permissions.md)
-* [Create a new user](user-management/create-a-new-user.md)
-* [Change a user's settings](user-management/change-a-users-settings.md)
-* [Activate or deactivate a user](user-management/activate-or-deactivate-a-user.md)
-* [Troubleshoot common issues](user-management/troubleshoot-common-issues.md)
-
-## User Acquisition Automation
-
-* [Overview](user-acquisition-automation/user-acquisition-automation.md)
-* [Ad Sets](user-acquisition-automation/ad-sets.md)
-* [Campaigns](user-acquisition-automation/campaigns.md)
-* [Campaign Synchronization](user-acquisition-automation/campaign-syncronization.md)
-* [Campaign Linking](user-acquisition-automation/campaign-linking.md)
-
-## Network Management
-
-* [Overview](network-management/overview.md)
-* [Connect a custom network](network-management/connect-a-custom-network.md)
-* [Manage network attributes](network-management/manage-network-attributes.md)
-
-## Bid Management
-
-* [Overview](bid-management/overview/README.md)
-  * [Partner support for bidding](bid-management/overview/partner-support-for-bidding.md)
-  * [Bidding hierarchy](bid-management/overview/bidding-hierarchy.md)
-  * [Bid upload CSV format](bid-management/overview/bid-upload-csv-format.md)
-  * [Bid upload validation](bid-management/overview/bid-upload-validation.md)
-* [Adjust bids manually](bid-management/adjust-bids-manually.md)
-* [Configure bids with a CSV](bid-management/configure-bids-with-a-csv.md)
+* [Glossary](glossary-and-definitions/README.md)
+  * [Channel](glossary-and-definitions/channel.md)
+  * [Goal](glossary-and-definitions/goal.md)
+  * [Network](glossary-and-definitions/network.md)
+  * [Postbacks](glossary-and-definitions/postbacks.md)
+  * [Sessions](glossary-and-definitions/sessions.md)
+  * [Tracking URL](glossary-and-definitions/tracking-url.md)
+  * [User Event](glossary-and-definitions/user-event.md)
+* [Integrated Partners](partner-overview/README.md)
+  * [Apple Search Ads](partner-overview/apple-search-ads.md)
+  * [AdColony / Digital Turbine](partner-overview/adcolony-digital-turbine.md)
+  * [Adjoe](partner-overview/adjoe.md)
+  * [Applovin](partner-overview/applovin.md)
+  * [Google Ads](partner-overview/google-ads.md)
+  * [Google Firebase](partner-overview/google-firebase.md)
+  * [Ironsource](partner-overview/ironsource.md)
+  * [Meta / Facebook](partner-overview/meta-facebook.md)
+  * [Tapjoy](partner-overview/tapjoy.md)
+  * [Unity](partner-overview/unity.md)
