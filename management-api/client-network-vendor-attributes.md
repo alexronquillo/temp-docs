@@ -1,5 +1,9 @@
 # Client Network Vendor Attributes
 
+{% hint style="info" %}
+This API is not supported anymore and will be removed soon
+{% endhint %}
+
 ### List networks
 
 ```

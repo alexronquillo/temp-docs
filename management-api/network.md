@@ -11,6 +11,38 @@ List networks return the list of networks for the current user's business unit.
 > -H 'X-API-KEY: <API KEY>'
 > ```
 
+### Request
+
+The message body for is a `filter` object:
+
+```json
+{
+   "filter": {
+        "matches": [
+            {
+                "dimension": "network.vendor",
+                "operator": "~",
+                "values": [
+                    "unity"
+                ]
+            }
+        ]
+    }
+}
+```
+
+You can filter on the following dimensions:
+
+| Dimension        | Description             |
+| ---------------- | ----------------------- |
+| `network.vendor` | The name of the Network |
+
+If you don't want to filter the list, you can use an empty object in the request body:
+
+```json
+{}
+```
+
 ### Response
 
 ```json

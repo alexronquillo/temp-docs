@@ -8,6 +8,8 @@
 * [App](management-api/app.md)
 * [Campaign](management-api/campaign.md)
 * [Network](management-api/network.md)
+* [Vendor Configuration](management-api/vendor-configuration.md)
+* [Configure Features](management-api/configure-features.md)
 * [Client Network Vendor Attributes](management-api/client-network-vendor-attributes.md)
 * [Bid Upload](management-api/bid-upload.md)
 
