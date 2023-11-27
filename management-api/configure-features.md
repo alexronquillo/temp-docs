@@ -85,7 +85,7 @@ curl --location -X PUT 'https://api.justtrack.io/management/v0/configuration/att
 ```
 
 {% hint style="info" %}
-You must provide values for all keys listed by [List configurations](configure-features.md#list-configurations). Otherwise, the feature will not work as expected.
+You must provide values for all keys listed by [List vendor configurations](vendor-configuration.md#list-vendor-configurations). Otherwise, the feature will not work as expected.
 {% endhint %}
 
 ### Request
