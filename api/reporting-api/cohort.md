@@ -9,8 +9,6 @@ The Cohort API provides data which is available on the Cohort Analysis view on t
 | Metric                                | About                                                      |
 | ------------------------------------- | ---------------------------------------------------------- |
 | retentionRate                         | Number of active users divided by number of installs       |
-| averageRevenuePerInstall              | Sum of revenue divided by number of installs               |
-| averageTimeSpendInApp                 | Time spend in app divided by number of active users        |
 | monetizationAdImpressions             | Number of successful ad impressions                        |
 | monetizationAdImpressionsBanner       | Number of successful ad impressions with banner type       |
 | monetizationAdImpressionsInterstitial | Number of successful ad impressions with interstitial type |
