@@ -2,6 +2,15 @@
 
 * [Overview](README.md)
 
+## Reporting API
+
+* [Overview](reporting-api/overview.md)
+* [Common Objects](reporting-api/common-objects.md)
+* [Acquisition](reporting-api/acquisition.md)
+* [Cohort](reporting-api/cohort.md)
+* [Event Drill Down](reporting-api/event-drill-down.md)
+* [Funnel Progression](reporting-api/funnel-progression.md)
+
 ## Management API
 
 * [Overview](management-api/overview.md)
@@ -12,15 +21,6 @@
 * [Configure Features](management-api/configure-features.md)
 * [Network](management-api/network.md)
 * [Vendor Configuration](management-api/vendor-configuration.md)
-
-## Reporting API
-
-* [Overview](reporting-api/overview.md)
-* [Acquisition](reporting-api/acquisition.md)
-* [Cohort](reporting-api/cohort.md)
-* [Common Objects](reporting-api/common-objects.md)
-* [Event Drill Down](reporting-api/event-drill-down.md)
-* [Funnel Progression](reporting-api/funnel-progression.md)
 
 ## Revenue Events API
 

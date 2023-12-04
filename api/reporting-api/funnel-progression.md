@@ -2,7 +2,7 @@
 
 ## About
 
-The Funnel Progression API provides access to the same data which is available on the Funnel: Game Progression page of the justtrack Dashboard.
+The Funnel Progression API provides access to the same data that is available on the [_Game Progression Funnel_](https://dashboard.justtrack.io/app-analytics/game-progression) page in the justtrack platform.
 
 <details>
 
@@ -27,24 +27,28 @@ Send a POST request to:
 
 ```
 {
-    "dimension": string,
-    "metrics": [string],
     "interval": {
-        "from": "YYYY-mm-dd",
-        "until": "YYYY-mm-dd"
+        "from": "2023-08-01",
+        "until": "2023-08-02" 
     },
-    "filters": {
-        "<dimension>": [string]
-    },
+    "metrics": [ 
+        "churnRate", 
+        "usersOfStepOne"
+    ],
+    "dimension": "eventDimension[<DIMENSION NAME>]",
+    "filters": { 
+        "app": [
+            "<APP-NAME>" 
+        ]
+    }, 
     "pagination": {
-        "page": int,
-        "limit": int
+        "page": 0,
+        "limit": 25 
     }
 }
-
 ```
 
-<table><thead><tr><th width="170.54133348659428">Name</th><th width="150">Type</th><th width="222.13953488372093">Description</th></tr></thead><tbody><tr><td>dimension</td><td>string</td><td><p>A dimension by which game events will be selected. Here you have two options depends on your SDK setup:</p><ul><li>elementId</li><li>elementName</li></ul></td></tr><tr><td>metrics</td><td>[]string</td><td>A list of requested metrics.</td></tr><tr><td>interval</td><td><a href="common-objects.md#pagination_request">Interval</a> object</td><td>An interval within which data should be aggregated.</td></tr><tr><td>filters</td><td><a href="common-objects.md#filters">Filters</a> object</td><td>Filters to limit requested data. <strong>app</strong> filter is required for this api.</td></tr><tr><td>pagination</td><td><a href="common-objects.md#pagination_request-1">Pagination</a> object</td><td>Batch number and amount of data rows to return.</td></tr></tbody></table>
+<table><thead><tr><th width="170.54133348659428">Name</th><th width="150">Type</th><th width="222.13953488372093">Description</th></tr></thead><tbody><tr><td>dimension</td><td>string</td><td><p>A dimension by which game events will be selected. Here, you have two options depends on your SDK setup:</p><ul><li>eventDimension[element_id]</li><li>eventDimension[jt_level_name]</li></ul></td></tr><tr><td>metrics</td><td>[]string</td><td>A list of requested metrics.</td></tr><tr><td>interval</td><td><a href="common-objects.md#pagination_request">Interval</a> object</td><td>An interval within which data should be aggregated.</td></tr><tr><td>filters</td><td><a href="common-objects.md#filters">Filters</a> object</td><td>Filters to limit requested data. The <code>app</code> filter is required for this api.</td></tr><tr><td>pagination</td><td><a href="common-objects.md#pagination_request-1">Pagination</a> object</td><td>Batch number and amount of data rows to return.</td></tr></tbody></table>
 
 ### **Response**
 
