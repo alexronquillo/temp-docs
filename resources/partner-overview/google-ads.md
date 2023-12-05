@@ -49,7 +49,7 @@ Additionally, you need to enter a `Developer Token` to be able to use these feat
 
 The `Login Customer ID` is needed if your access to the customer account is through a manager account. This attribute must be set to the customer ID of the manager account. You can find the ID when you click on Help in the Google Ads dashboard.
 
-As a last step, please navigate to the product section of justtrack and enter the `ClientCustomerId` for your apps. It is needed to use justtrack's bid manager. This attribute can be found in your Google Ads Account right next to the selected app:
+As a last step, please navigate to the apps section of justtrack and enter the `ClientCustomerId` for your apps. It is needed to use justtrack's bid manager. This attribute can be found in your Google Ads Account right next to the selected app:
 
 ![Your app with the relevant id](<../.gitbook/assets/Bildschirmfoto 2022-07-11 um 14.14.26.png>)
 
