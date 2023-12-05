@@ -62,7 +62,7 @@ Once everything is setup correctly, click **Invite user**:
 
 ### Setting up the service account on the justtrack dashboard
 
-To get your in-app purchases verified and tracked by justtrack you need to upload the JSON file you received when you created the key on the justtrack dashboard. To do so, navigate to products, select your Android app and enter edit mode.
+To get your in-app purchases verified and tracked by justtrack you need to upload the JSON file you received when you created the key on the justtrack dashboard. To do so, navigate to apps, select your Android app and enter edit mode.
 
 <figure><img src="../../.gitbook/assets/Setup Secret 2 Android.png" alt=""><figcaption><p>Editing an app to configure shared secrets</p></figcaption></figure>
 

@@ -30,7 +30,7 @@ Once you generated the app-specific shared secret, you will be presented with th
 
 ### Setting up shared secrets on the justtrack dashboard
 
-To get your in-app purchases verified and tracked by justtrack you need to enter the (global or app-specific) shared secret for your app on the justtrack dashboard. To do so, navigate to products, select your iOS app and enter edit mode.
+To get your in-app purchases verified and tracked by justtrack you need to enter the (global or app-specific) shared secret for your app on the justtrack dashboard. To do so, navigate to apps, select your iOS app and enter edit mode.
 
 <figure><img src="../../.gitbook/assets/Setup Secret 2.png" alt=""><figcaption><p>Editing an app to configure shared secrets</p></figcaption></figure>
 

@@ -4,7 +4,7 @@ description: A guide to analyzing your data in justtrack
 
 # Overview
 
-You market your product, develop of your game, or perform any other function in your organization. You need to **export, study, and analyze user acquisition and monetization data**. This is the documentation for you.&#x20;
+You market your app, develop of your game, or perform any other function in your organization. You need to **export, study, and analyze user acquisition and monetization data**. This is the documentation for you.&#x20;
 
 Here, you'll find product documentation and guides for topics like:
 
