@@ -73,20 +73,20 @@ Use the Table API for feeding your own drill down tables. Send a POST request to
     }, 
     "dimensions": [
         "eventName",
-        "eventDimension[<DIMENSION NAME>]" 
+        "eventDimension[DIMENSION NAME]" 
     ],
     "metrics": [ 
         "totalEventsCount"
     ], 
     "filters": {
         "app": [ 
-            "<APP NAME>"
+            "APP NAME"
         ], 
         "eventName": [
-            "<EVENT NAME>" 
+            "EVENT NAME" 
         ],
-        "eventDimension[<DIMENSION NAME>]": [ 
-            "<VALUE>"
+        "eventDimension[DIMENSION NAME]": [ 
+            "VALUE"
         ] 
     },
     "pagination": { 
@@ -100,7 +100,7 @@ Use the Table API for feeding your own drill down tables. Send a POST request to
 }
 ```
 
-<table><thead><tr><th width="170.54133348659428">Name</th><th width="150">Type</th><th width="222.13953488372093">Description</th></tr></thead><tbody><tr><td>cohort</td><td><a href="common-objects.md#cohort">Cohort</a> object</td><td>Cohort or daily view.</td></tr><tr><td>interval</td><td><a href="common-objects.md#pagination_request">Interval</a> object</td><td>An interval within which data should be aggregated.</td></tr><tr><td>metrics</td><td>[]string</td><td>A list of requested metrics.</td></tr><tr><td>dimensions</td><td>[]dimensions</td><td>A list of <a href="event-drill-down.md#supported-dimensions">dimensions</a> by which data should be split. You can request up to 3 dimensions.<br><br>This can include named <a href="event-drill-down.md#supported-event-dimensions">event dimensions</a> in this form: <code>eventDimension[&#x3C;DIMENSION NAME>]</code></td></tr><tr><td>filters</td><td><a href="common-objects.md#filters">Filters</a> object</td><td>Filters to limit requested data. Optional.</td></tr><tr><td>pagination</td><td><a href="common-objects.md#pagination_request-1">Pagination</a> object</td><td>Batch number and amount of data rows to return.</td></tr><tr><td>orderBy</td><td><a href="common-objects.md#orderby">OrderBy</a> object</td><td>Descending or ascending order by selected metric or dimension.</td></tr></tbody></table>
+<table><thead><tr><th width="170.54133348659428">Name</th><th width="150">Type</th><th width="222.13953488372093">Description</th></tr></thead><tbody><tr><td>cohort</td><td><a href="common-objects.md#cohort">Cohort</a> object</td><td>Cohort or daily view.</td></tr><tr><td>interval</td><td><a href="common-objects.md#pagination_request">Interval</a> object</td><td>An interval within which data should be aggregated.</td></tr><tr><td>metrics</td><td>[]string</td><td>A list of requested metrics.</td></tr><tr><td>dimensions</td><td>[]dimensions</td><td>A list of <a href="event-drill-down.md#supported-dimensions">dimensions</a> by which data should be split. You can request up to 3 dimensions.<br><br>This can include named <a href="event-drill-down.md#supported-event-dimensions">event dimensions</a> in this form: <code>eventDimension[DIMENSION NAME]</code></td></tr><tr><td>filters</td><td><a href="common-objects.md#filters">Filters</a> object</td><td>Filters to limit requested data. Optional.</td></tr><tr><td>pagination</td><td><a href="common-objects.md#pagination_request-1">Pagination</a> object</td><td>Batch number and amount of data rows to return.</td></tr><tr><td>orderBy</td><td><a href="common-objects.md#orderby">OrderBy</a> object</td><td>Descending or ascending order by selected metric or dimension.</td></tr></tbody></table>
 
 ### **Response**
 

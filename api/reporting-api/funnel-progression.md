@@ -35,10 +35,10 @@ Send a POST request to:
         "churnRate", 
         "usersOfStepOne"
     ],
-    "dimension": "eventDimension[<DIMENSION NAME>]",
+    "dimension": "eventDimension[DIMENSION NAME]",
     "filters": { 
         "app": [
-            "<APP-NAME>" 
+            "APP NAME" 
         ]
     }, 
     "pagination": {
