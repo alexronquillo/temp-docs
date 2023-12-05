@@ -29,15 +29,15 @@ List app return the list of apps for the current user's business unit.
 }
 ```
 
-| Name       | Type   | Description                                                                                                                                   |
-| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| id         | int    | Id of the product                                                                                                                             |
-| platformId | int    | <p>The App's platform; one of:</p><ul><li><code>1</code> for android </li><li><code>2</code> for ios</li><li><code>3</code> for web</li></ul> |
-| packageId  | string | Application package id                                                                                                                        |
-| storeId    | string | Application store id as used by the Apple or Google App Store                                                                                 |
-| name       | string | Name of the product                                                                                                                           |
-| createdAt  | string | The date of product creation                                                                                                                  |
-| updatedAt  | string | The date of the latest product update                                                                                                         |
+| Name       | Type   | Description                                                                                                                                  |
+| ---------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| id         | int    | Id of the app                                                                                                                                |
+| platformId | int    | <p>The app's platform; one of:</p><ul><li><code>1</code> for android</li><li><code>2</code> for ios</li><li><code>3</code> for web</li></ul> |
+| packageId  | string | Application package id                                                                                                                       |
+| storeId    | string | Application store id as used by the Apple or Google App Store                                                                                |
+| name       | string | Name of the app                                                                                                                              |
+| createdAt  | string | The date of app creation                                                                                                                     |
+| updatedAt  | string | The date of the latest app update                                                                                                            |
 
 ## Create App
 
@@ -79,13 +79,13 @@ The general request to the Create App API looks like:
 
 #### General parameters
 
-| Name       | Type   | Description                                                                                                                                   |
-| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| name       | string | The name of the App to create                                                                                                                 |
-| platformId | int    | <p>The App's platform; one of:</p><ul><li><code>1</code> for android </li><li><code>2</code> for ios</li><li><code>3</code> for web</li></ul> |
-| storeId    | string | Unique Id of the application in the store                                                                                                     |
-| iconLink   | string | Icon URL taken from store                                                                                                                     |
-| packageId  | int    | Id of package                                                                                                                                 |
+| Name       | Type   | Description                                                                                                                                  |
+| ---------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| name       | string | The name of the App to create                                                                                                                |
+| platformId | int    | <p>The App's platform; one of:</p><ul><li><code>1</code> for android</li><li><code>2</code> for ios</li><li><code>3</code> for web</li></ul> |
+| storeId    | string | Unique Id of the application in the store                                                                                                    |
+| iconLink   | string | Icon URL taken from store                                                                                                                    |
+| packageId  | int    | Id of package                                                                                                                                |
 
 {% hint style="info" %}
 We validate the following constraints when creating an app:
@@ -141,7 +141,7 @@ We validate the following constraints when creating an app:
 | ------------------------------------------------------------------ | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Id                                                                 | string           | Unique Id of the App in justtrack                                                                                                                                                                                                |
 | name                                                               | string           | The name of the App to create                                                                                                                                                                                                    |
-| platformId                                                         | int              | <p>The App's platform; one of:</p><ul><li><code>1</code> for Android </li><li><code>2</code> for iOS</li><li><code>3</code> for Web</li></ul>                                                                                    |
+| platformId                                                         | int              | <p>The App's platform; one of:</p><ul><li><code>1</code> for Android</li><li><code>2</code> for iOS</li><li><code>3</code> for Web</li></ul>                                                                                     |
 | apiToken                                                           | string           | The API token for the Network.                                                                                                                                                                                                   |
 | <p><del>networkAttributes</del><br><strong>deprecated</strong></p> | array of objects | <p>For some Networks, you need to configure attributes when creating the App. This object shows the attributes you created.<br><br>Refer to <a href="app.md#networkattributes-1">networkAttributes</a> for more information.</p> |
 |                                                                    |                  |                                                                                                                                                                                                                                  |
