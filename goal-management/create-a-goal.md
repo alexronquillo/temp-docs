@@ -7,7 +7,7 @@ In this guide, you'll learn how to create a new goal for your application. Among
 
 ## Before you begin
 
-Only **admins** and **managers** can create and edit goals. So, to complete the steps in this guide, you must first be an admin or manager for your company.
+Only **admins** and **managers** can create and edit goals. So, to complete the steps in this guide, you must first be an admin or manager for your organization.
 
 {% hint style="info" %}
 Learn more about user roles in [User Roles and Permissions](../user-management/user-roles-and-permissions.md).
@@ -21,17 +21,11 @@ In the _Main Menu_, click [**Admin -> Apps**](https://dashboard.justtrack.io/adm
 
 <figure><img src="../.gitbook/assets/nav-to-apps.png" alt="" width="563"><figcaption><p>Navigate to Apps</p></figcaption></figure>
 
-Then, select an app. This opens the _App_ page where you can see or edit details about your app.&#x20;
+Then, select an app. This opens the _App Hub_ where you can see or edit details about your app.
 
-Scroll down on the _App_ page, and click **View App Goals**:
+On the _Goals_ card, click **Create Goal**:
 
-<figure><img src="../.gitbook/assets/view-app-goals.png" alt="A screenshot of the goals section of the product page." width="563"><figcaption><p>View App Goals</p></figcaption></figure>
-
-This opens the _Goals_ page. Here, you can see all your existing app goals and create new ones.
-
-Click **Create Goal:**
-
-<figure><img src="../.gitbook/assets/create-goal.png" alt="An arrow pointing to the Create Goal button." width="563"><figcaption><p>Create Goal</p></figcaption></figure>
+<figure><img src="../promote/.gitbook/assets/goals.png" alt="" width="375"><figcaption><p>Create Goal</p></figcaption></figure>
 
 This opens the _Goal Wizard_, which walks you through the steps of creating a new goal for your app.
 

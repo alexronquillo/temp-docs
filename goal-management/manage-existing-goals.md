@@ -21,15 +21,15 @@ In the _Main Menu_, click [**Admin -> Apps**](https://dashboard.justtrack.io/adm
 
 <figure><img src="../.gitbook/assets/nav-to-apps.png" alt="" width="563"><figcaption><p>Navigate to Apps</p></figcaption></figure>
 
-Then, select an app. This opens the _App_ page where you can see or edit details about your app.&#x20;
+Then, select an app. This opens the _App Hub_ where you can see or edit details about your app.
 
-Scroll down on the _App_ page, and click **View App Goals**:
+On the _Goals_ card, click **See Full List**:
 
-<figure><img src="../.gitbook/assets/view-app-goals.png" alt="A screenshot of the goals section of the product page." width="563"><figcaption><p>View App Goals</p></figcaption></figure>
+<figure><img src="../promote/.gitbook/assets/goals (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This opens the _Goals_ page. Here, you can manage all your existing goals with the **Action** menu:
 
-<figure><img src="../.gitbook/assets/goals (1).png" alt="An arrow pointing to the action menu." width="563"><figcaption><p>Action Menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/goals (1).png" alt="An arrow pointing to the action menu." width="375"><figcaption><p>Action Menu</p></figcaption></figure>
 
 ## Edit a goal
 

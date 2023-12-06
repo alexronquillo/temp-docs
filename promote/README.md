@@ -4,7 +4,7 @@ description: A guide to promoting your app with justtrack
 
 # Overview
 
-You're focused on market growth, attribution, and user acquisition. You **manage your creative campaigns, goals, networks, and more**. This is the documentation for you.&#x20;
+You're focused on market growth, attribution, and user acquisition. You **manage your creative campaigns, goals, networks, and more**. This is the documentation for you.
 
 Here, you'll find product documentation and guides for topics like:
 

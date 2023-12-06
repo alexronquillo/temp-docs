@@ -84,8 +84,9 @@ The attributes for attributed postbacks are:
 
 | Attribute        | Description                                                                                                                               |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Goal             | We send a postback to the network when users trigger this goal                                                                            |
 | Status           | This determines whether we should send the postback (active) or not (inactive)                                                            |
+| App              | This selects the app for which you want to send this postback.                                                                            |
+| Goal             | We send a postback to the network when users trigger this goal                                                                            |
 | Custom Goal Name | This lets you override the `{goalName}` parameter value.                                                                                  |
 | Postback URL     | We send the postback to this URL. Each URL can have [placeholder parameters](broken-reference) that are filled when we send the postback. |
 
@@ -93,10 +94,9 @@ The attributes for non-attributed postbacks are:
 
 | Attribute                     | Description                                                                                                                               |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Goal                          | We send a postback to the network when users trigger this goal                                                                            |
 | Status                        | This determines whether we should send the postback (active) or not (inactive)                                                            |
-| Products                      | This selects the products for which you want to send this postback.                                                                       |
-| Platform                      | This selects the product platforms for which you want to send this postback.                                                              |
+| App                           | This selects the app for which you want to send this postback.                                                                            |
+| Goal                          | We send a postback to the network when users trigger this goal                                                                            |
 | Include attributed users from | This selects the networks for which you want to send this postback for attributed users.                                                  |
 | Include fraud users from      | This selects the networks for which you want to send this postback for fraud users.                                                       |
 | Custom Goal Name              | This lets you override the `{goalName}` parameter value.                                                                                  |
