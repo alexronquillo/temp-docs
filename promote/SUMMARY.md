@@ -10,8 +10,9 @@
 * [Add a new app](app-management/add-a-new-app.md)
 * [Create a goal](../goal-management/create-a-goal.md)
 * [Manage existing goals](../goal-management/manage-existing-goals.md)
-* [Manage ad network attributes](network-management/manage-ad-network-attributes.md)
+* [Manage ad network attributes](../network-management/manage-network-attributes.md)
 * [Manage monetization network attributes](network-management/manage-monetization-network-attributes.md)
+* [Find your justtrack token](http://127.0.0.1:5000/s/CSwomFswqKEitapGh0xs/readme/find-your-justtrack-token)
 
 ## Goal Management
 
@@ -45,7 +46,7 @@
 
 * [Overview](../network-management/overview.md)
 * [Connect a custom network](../network-management/connect-a-custom-network.md)
-* [Manage ad network attributes](network-management/manage-ad-network-attributes.md)
+* [Manage ad network attributes](../network-management/manage-network-attributes.md)
 * [Manage monetization network attributes](network-management/manage-monetization-network-attributes.md)
 
 ## Bid Management

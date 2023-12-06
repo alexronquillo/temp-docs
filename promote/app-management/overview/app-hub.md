@@ -21,7 +21,7 @@ Additionally, if you click **Manage Integration**, you can do things like:
 * Configure values for your networks' postbacks
 
 {% hint style="info" %}
-Read our [guide](../../network-management/manage-ad-network-attributes.md) to learn more about managing ad network attributes.
+Read our [guide](../../../network-management/manage-network-attributes.md) to learn more about managing ad network attributes.
 {% endhint %}
 
 ### Monetization
