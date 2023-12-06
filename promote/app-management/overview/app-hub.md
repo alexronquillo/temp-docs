@@ -12,7 +12,7 @@ Here, you'll find and edit general information about your app. This incudes the 
 
 <figure><img src="../../.gitbook/assets/advertising (1).png" alt="" width="375"><figcaption><p>Advertising Partners</p></figcaption></figure>
 
-Here, you'll find a table of ad partners connected to your app. These are ordered by the amount of installs your app acquired through the partner over the last 24 hours.
+Here, you'll find a table of ad partners connected to your app. These are ordered by the amount of installs your app acquired through the partner over the past seven days.
 
 Additionally, if you click **Manage Integration**, you can do things like:
 
