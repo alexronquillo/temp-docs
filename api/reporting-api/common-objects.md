@@ -4,9 +4,9 @@
 
 #### **cohort**
 
-Defines if cohort settings should be applied to the data. This changes by which time property the events are grouped by. Setting the time-span (dx value) limits the number of days which are taken into the calculation.
+Defines if cohort logic should be applied to the data.
 
-<table><thead><tr><th width="150">Field</th><th width="150">Value</th><th width="438.2"></th></tr></thead><tbody><tr><td>enabled</td><td>bool</td><td>Set <strong>true</strong> for grouping events events by day they occurred.<br>Set <strong>false</strong> for grouping events by the install dates/cohorts.</td></tr><tr><td>dx</td><td>[int]</td><td><p>Left <strong>empty</strong> for calculating events for all days.</p><p>Set <strong>[0]</strong> for calculating events within 24h after install.<br>Set <strong>[0, 1]</strong> for calculating events within 24h after install and one day after.<br>Set <strong>[0, ...</strong>, <strong>29]</strong> for calculating events for the up to 30 days.</p></td></tr></tbody></table>
+<table><thead><tr><th width="150">Field</th><th width="150">Value</th><th width="438.2">Description</th></tr></thead><tbody><tr><td>enabled</td><td>bool</td><td><p>Enables or disables cohort grouping.</p><ul><li><code>true</code>: group events by cohort (install date)</li><li><code>false</code>: group events by day they occurred.</li></ul></td></tr><tr><td>dx</td><td>[int]</td><td><p>Controls which days after install (dx) to include in the calculation.</p><ul><li><strong>No value:</strong> Calculates events for all days.</li><li><strong>[0]:</strong> Calculates events on the day of install (d0).</li><li><strong>[0, 3]:</strong> Calculates events on d0 and d3.</li><li><strong>[0, 1, 2, 3]:</strong> Calculates events on d0, d1, d2, and d3.</li></ul></td></tr></tbody></table>
 
 #### **interval** <a href="#pagination_request" id="pagination_request"></a>
 
