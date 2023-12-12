@@ -6,6 +6,7 @@
     * [iOS & SKAdNetwork](readme/tracking-documentation/skadnetwork-for-ios.md)
     * [Retargeting](readme/tracking-documentation/retargeting.md)
   * [Predefined Events](readme/predefined-events.md)
+  * [Find your justtrack token](readme/find-your-justtrack-token.md)
 
 ## Android
 
@@ -45,7 +46,6 @@
 * [Install the SDK](unity/install-the-sdk.md)
 * [Install the dependencies](unity/install-the-dependencies.md)
 * [Add the prefab](unity/add-the-prefab.md)
-* [Get your API token](unity/get-your-api-token.md)
 * [Send user events](unity/send-user-events.md)
 * [Get a justtrack user ID](unity/get-a-justtrack-user-id.md)
 * [Get an attribution](unity/get-an-attribution.md)

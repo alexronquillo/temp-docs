@@ -2,7 +2,7 @@
 
 Retargeting (also known as remarketing) is a type of advertising that targets already known users that at some point used your app and then stopped doing so. By targeting users who already downloaded your app and prompting them to get engaged again, you can ensure that usage remains steady. Retargeting is often done with special incentives like events, discounts or free in-app items.
 
-![](../../.gitbook/assets/RetargetingDiagram.png)
+![](<../../.gitbook/assets/RetargetingDiagram (1).png>)
 
 ## Deep Links
 

@@ -4,7 +4,7 @@
 
 If you are using IronSource to diplay ads to your users, you can integrate the justtrack SDK with the IronSource SDK. In that case the justtrack SDK will initialize the IronSource SDK on your behalf and pass the justtrack user id to the IronSource SDK. For each platform, supply the correct app key in the prefab and enable all ad units you need:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-15 at 14.05.45.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-15 at 14.05.45 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ```csharp
 using JustTrack;

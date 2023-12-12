@@ -144,7 +144,7 @@
 
 *   The SDK can now retrieve the Firebase instance id of a user and send it to the justtrack backend.
 
-    ## Version 4.2.6 (11th February 2022)
+    ### Version 4.2.6 (11th February 2022)
 
 ### Changed
 

@@ -25,20 +25,7 @@ We support Xcode version 14.0 and later.
 
 ## Copy your API Token
 
-Before integrating the justtrack SDK into your app, you need to obtain an API token. Follow these steps to get an API token:
-
-1. Go to the [justtrack dashboard](https://dashboard.justtrack.io/admin/products) and log in.
-2. Navigate to your app.
-3. Locate the API token for your app. It should be displayed on the dashboard page.
-4. Copy the API token. It should be a string that looks like this:
-
-```
-prod-c6654a0ae88b2f21111b9d69b4539fb1186de983f0ad826f0febaf28e3e3b7ed
-```
-
-{% hint style="info" %}
-An API token is specific for a package id and platform. If you build more than one app from one code base, you have to configure different API tokens for them.
-{% endhint %}
+Before integrating the justtrack SDK into your app, you need to obtain an API token. Follow our guide to [find your token](../readme/find-your-justtrack-token.md).
 
 ## Instantiate the SDK
 
