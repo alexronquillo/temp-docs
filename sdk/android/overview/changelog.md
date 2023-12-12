@@ -1,5 +1,22 @@
 # Changelog
 
+## Version 4.5.0 (12th December 2023)
+
+### Changes
+
+* The `UserEvent` classes have been changed such that you can now submit named custom dimensions instead of dimensions custom1/2/3.
+* All predefined event classes have been renamed, some have been removed or merged. See the migration guide you received for more details.
+* `forwardAdImpression` now requires you to construct an `AdImpression` object instead of passing individual parameters.
+
+### Bug-Fixes
+
+* An issue was fixed on certain devices which would result in an invalid Advertiser ID to be reported.
+* An issue was fixed which would have caused some internal events to be duplicated in some cases.
+
+### Removed
+
+* The `EventDetails` class has been removed, the event name is now just a single string.
+
 ## Version 4.4.1 (30th August 2023)
 
 ### Changed

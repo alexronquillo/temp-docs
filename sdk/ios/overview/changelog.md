@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 4.5.0 (12th December 2023)
+
+### Changed
+
+* The `UserEvent` classes have been changed such that you can now submit named custom dimensions instead of dimensions custom1/2/3.
+* All predefined event classes have been renamed, some have been removed or merged. See the migration guide you received for more details.
+* The JustTrackSDK can now only be initialized from the main thread. If you need to initialize it from another thread, use `DispatchQueue.main.sync` to move the call to the main thread.
+* `JustTrackSdk.forwardAdImpression` now requires you to construct an `AdImpression` object instead of passing individual parameters.
+
 ## Version 4.4.1 (30th August 2023)
 
 ### Bug-Fixes
