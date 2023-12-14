@@ -6,7 +6,7 @@ The justtrack SDK offers extensive tracking capabilities for attribution, events
 {% tab title="Groovy" %}
 ```groovy
 dependencies {
-    implementation "io.justtrack:justtrack-android-sdk:4.4.1"
+    implementation "io.justtrack:justtrack-android-sdk:4.5.0"
 }
 ```
 {% endtab %}
@@ -14,7 +14,7 @@ dependencies {
 {% tab title="Kotlin" %}
 ```kotlin
 dependencies {
-    implementation("io.justtrack:justtrack-android-sdk:4.4.1")
+    implementation("io.justtrack:justtrack-android-sdk:4.5.0")
 }
 ```
 {% endtab %}

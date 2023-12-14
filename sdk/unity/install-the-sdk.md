@@ -14,7 +14,7 @@ You can also add the scoped registry and package directly to your `Packages/mani
 {
   "dependencies": {
     // ... other dependencies of your game ...
-    "io.justtrack.justtrack-unity-sdk": "4.4.0"
+    "io.justtrack.justtrack-unity-sdk": "4.5.0"
   },
   "scopedRegistries": [
     // ... other scoped registries ...

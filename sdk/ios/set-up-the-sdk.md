@@ -14,7 +14,7 @@ The justtrack SDK offers extensive tracking capabilities for attribution, events
 You can use [CocoaPods](https://cocoapods.org/) to add the justtrack SDK to your app. Add the following line to your `Podfile`:
 
 ```ruby
-pod 'JustTrackSDK', '4.4.1'
+pod 'JustTrackSDK', '4.5.0'
 ```
 
 Afterwards, run `pod install` in your project to actually download and install the justtrack SDK for your project.
