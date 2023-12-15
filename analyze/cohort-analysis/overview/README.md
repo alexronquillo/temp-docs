@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 15.14.43.png" alt=""><figcaption><p>Cohorts</p></figcaption></figure>
 
-A **cohort** is a group of users that installed an app on the same day. You can use the _Cohort Analysis_ page to aggregate, analyze, and visualize trends based on cohorts. For example, you can analyze your app's retention over time and take action to improve that metric based on your findings.
+A [**cohort**](https://app.gitbook.com/s/4favyoz2l7ENoW5stOlK/glossary-and-definitions/cohort) is a group of users that installed an app on the same day. You can use the _Cohort Analysis_ page to aggregate, analyze, and visualize trends based on cohorts. For example, you can analyze your app's retention over time and take action to improve that metric based on your findings.
 
 Here are the key features of the _Cohort Analysis_ page:
 

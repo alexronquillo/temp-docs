@@ -65,7 +65,7 @@ Great work! With this guide, you learned how to configure cohorts and present th
 
 To learn more about cohorts and _Cohort Analysis_, check out this documentation:
 
-* Cohorts
+* [Cohorts](https://app.gitbook.com/s/4favyoz2l7ENoW5stOlK/glossary-and-definitions/cohort)
 * [Configuring your metrics](overview/configuring-your-metrics.md)
 * [Comparing segmented cohorts](overview/comparing-segmented-cohorts.md)
 
