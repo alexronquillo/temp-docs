@@ -32,3 +32,11 @@
 
 * [Overview](dashboard/overview.md)
 * [Customize Widgets](dashboard/customize-widgets.md)
+
+## Cohort Analysis
+
+* [Overview](cohort-analysis/overview/README.md)
+  * [Cohort analysis table](cohort-analysis/overview/cohort-analysis-table.md)
+  * [Configuring your metrics](cohort-analysis/overview/configuring-your-metrics.md)
+  * [Comparing segmented cohorts](cohort-analysis/overview/comparing-segmented-cohorts.md)
+* [Analyze user retention](cohort-analysis/analyze-user-retention.md)
