@@ -4,7 +4,7 @@ A **Network**, or ad network, is a service that pairs marketing teams who have a
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-09-19 at 15.23.15.png" alt=""><figcaption><p>Ad Network</p></figcaption></figure>
 
-## Learn more about Networks
+## Learn more about networks
 
-* [Connect a Custom Network](broken-reference)
-* [Use our public Networks API](broken-reference)
+* [Connect a Custom Network](broken-reference/)
+* [Use our public Networks API](broken-reference/)

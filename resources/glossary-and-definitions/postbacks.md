@@ -1,4 +1,4 @@
-# Postbacks
+# Postback
 
 A **postback** is when we send attribution data to inform a network about user events:
 
@@ -19,7 +19,7 @@ The address where we send this data is called a **postback URL**. Because these 
 
 ### Goal-based Postbacks
 
-In justtrack, postbacks are based on [goals](broken-reference). For every goal your app has, you can configure a network postback URL. When a goal is triggered, we use the corresponding postback URL to send data to your connected network, informing them of the user behaviors that originated from their ad.
+In justtrack, postbacks are based on [goals](broken-reference/). For every goal your app has, you can configure a network postback URL. When a goal is triggered, we use the corresponding postback URL to send data to your connected network, informing them of the user behaviors that originated from their ad.
 
 Every time you configure a network, we automatically create a postback for the **Install** goal for you. For all other goals, you must decide if you want to manually create a postback.
 
@@ -29,7 +29,7 @@ Make sure to activate your postbacks or we won't use them to send data to your c
 
 ### Parameters
 
-You use postback parameters to specify the attribution data you want to send to the network. For example, you might want to include the app id or the user's country. Like [tracking URLs](broken-reference), you specify parameter names and corresponding placeholders. When a user triggers an app goal, we send a postback, replacing the placeholders with real values.
+You use postback parameters to specify the attribution data you want to send to the network. For example, you might want to include the app id or the user's country. Like [tracking URLs](broken-reference/), you specify parameter names and corresponding placeholders. When a user triggers an app goal, we send a postback, replacing the placeholders with real values.
 
 {% hint style="info" %}
 For many networks, we've already created postbacks with parameters for you.
@@ -116,10 +116,10 @@ Some placeholders are network-specific. We can provide these values in a postbac
 
 ### Attributed vs. Non-attributed Postbacks
 
-You can send postbacks to a network whether a user's behavior is attributed to that network or not.&#x20;
+You can send postbacks to a network whether a user's behavior is attributed to that network or not.
 
-* If the user behaviors _are_ attributed to that network, we call these **attributed postbacks**.&#x20;
-* If the user behaviors _are not_ attributed to that network, we call these **non-attributed postbacks**.&#x20;
+* If the user behaviors _are_ attributed to that network, we call these **attributed postbacks**.
+* If the user behaviors _are not_ attributed to that network, we call these **non-attributed postbacks**.
 
 Non-attributed postbacks can come from organic users (attributed to no network) or users who are attributed to a different network.
 
@@ -128,7 +128,7 @@ There are two primary reasons why non-attributed postbacks are valuable to send:
 1. Sharing installs Increases eCPM over your advertising networks, as they can suppress further ads to already installed users
 2. With post-install events, ad networks build lookalikes/audiences and can analyze what makes a user valuable to the customer and optimize towards targeting similar users
 
-## Learn more about Postbacks
+## Learn more about postbacks
 
-* [Connect a Custom Network](broken-reference)
-* [Tracking Documentation](broken-reference)
+* [Connect a Custom Network](broken-reference/)
+* [Tracking Documentation](broken-reference/)
