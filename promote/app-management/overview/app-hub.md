@@ -21,7 +21,7 @@ Additionally, if you click **Manage Integration**, you can do things like:
 * Configure values for your networks' postbacks
 
 {% hint style="info" %}
-Read our [guide](../../../network-management/manage-network-attributes.md) to learn more about managing ad network attributes.
+Read our [guide](../../network-management/manage-ad-network-attributes.md) to learn more about managing ad network attributes.
 {% endhint %}
 
 ### Monetization
@@ -46,7 +46,7 @@ Read our [guide](../../network-management/manage-monetization-network-attributes
 Here, you'll find a table that correlates versions of your app to versions of the justtrack SDK running on your app. These are ordered by the amount of users who used that app version in the past seven days.
 
 {% hint style="info" %}
-**Technical Detail:** The SDK Integration table data reflects the number of times users have opened each version of your app. This is captured with `jt_app_open` [user events](http://127.0.0.1:5000/s/CSwomFswqKEitapGh0xs/readme/predefined-events).
+**Technical Detail:** The SDK Integration table data reflects the number of times users have opened each version of your app. This is captured with `jt_app_open` [user events](https://app.gitbook.com/s/CSwomFswqKEitapGh0xs/readme/predefined-events).
 {% endhint %}
 
 Additionally, if you click **Manage Integration**, you can do things like:
@@ -68,5 +68,5 @@ Additionally, if you click **See Full List**, you can do things like:
 
 Read our guides to learn more about how to:
 
-* [Create a goal](../../../goal-management/create-a-goal.md)
-* [Manage existing goals](../../../goal-management/manage-existing-goals.md)
+* [Create a goal](../../goal-management/create-a-goal.md)
+* [Manage existing goals](../../goal-management/manage-existing-goals.md)

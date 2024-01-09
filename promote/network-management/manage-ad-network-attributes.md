@@ -1,6 +1,6 @@
-# Manage monetization network attributes
+# Manage ad network attributes
 
-In this guide, you'll learn to view and edit attributes, such as keys, tokens, and IDs for your connected monetization networks.
+In this guide, you'll learn to view and edit attributes, such as keys, tokens, and IDs for your connected ad networks.
 
 ## Before you begin
 
@@ -20,14 +20,15 @@ In the _Main Menu_, click [**Admin -> Apps**](https://dashboard.justtrack.io/adm
 
 Then, select an app. This opens the _App Hub_ where you can see or edit details about your app.
 
-On the _Monetization_ card, click **Manage Integration**:
+On the _Advertisement_ card, click **Manage Integration**:
 
 <figure><img src="../.gitbook/assets/advertising (2).png" alt="" width="375"><figcaption><p>Manage Integration</p></figcaption></figure>
 
 From here, you can view and edit your network attributes in the following sections:
 
-* **Revenue Import:** Configure attributes related to importing revenue data from your connected monetization networks.
-* **Purchase Verification Credentials:** Upload and manage your purchase verification credentials for the relevant app store.
+* **Attribution Configurations:** Configure attributes related to network attribution for your connected networks.
+* **Network Attributes:** Configure general attributes related to your connected networks.
+* **Postback Configurations:** Configure attributes related to postbacks for your connected networks.
 
 To update these attributes:
 
